@@ -1,3 +1,9 @@
+!.gitignore
+*.bat
+*.pdb
+/WLLibrary/WLLibrary/obj
+/WLLibrary/WLLibrary/bin
+/WLLibrary/WLLibrary/Document
 /WLLibrary/WLLibrary/Debug
-bin
-obj
+/WLLibrary/WLLibrary/.DS_Store
+/.DS_Store
