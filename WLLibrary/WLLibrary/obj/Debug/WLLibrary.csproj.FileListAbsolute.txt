@@ -1,0 +1,10 @@
+C:\Develop\WLLibrary.git\trunk\WLLibrary\WLLibrary\bin\Debug\WLLibrary.dll
+C:\Develop\WLLibrary.git\trunk\WLLibrary\WLLibrary\bin\Debug\WLLibrary.pdb
+C:\Develop\WLLibrary.git\trunk\WLLibrary\WLLibrary\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Develop\WLLibrary.git\trunk\WLLibrary\WLLibrary\bin\Debug\log4net.dll
+C:\Develop\WLLibrary.git\trunk\WLLibrary\WLLibrary\bin\Debug\mysql.data.dll
+C:\Develop\WLLibrary.git\trunk\WLLibrary\WLLibrary\bin\Debug\log4net.xml
+C:\Develop\WLLibrary.git\trunk\WLLibrary\WLLibrary\obj\Debug\WLLibrary.StringMessages.resources
+C:\Develop\WLLibrary.git\trunk\WLLibrary\WLLibrary\obj\Debug\WLLibrary.csproj.GenerateResource.Cache
+C:\Develop\WLLibrary.git\trunk\WLLibrary\WLLibrary\obj\Debug\WLLibrary.dll
+C:\Develop\WLLibrary.git\trunk\WLLibrary\WLLibrary\obj\Debug\WLLibrary.pdb

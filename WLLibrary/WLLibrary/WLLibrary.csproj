@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BEEB7057-0C7A-447E-A9E7-88F85FF9FAC0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WLLibrary</RootNamespace>
+    <AssemblyName>WLLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.84.0.0, Culture=neutral, PublicKeyToken=1b03e6acf1164f73">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Include\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Include\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="mysql.data, Version=6.8.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Include\mysql.data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cache\Memcached\CRCTool.cs" />
+    <Compile Include="Cache\Memcached\IterIsolate.cs" />
+    <Compile Include="Cache\Memcached\MemCachedClient.cs" />
+    <Compile Include="Cache\Memcached\MemCachedConfigSection.cs" />
+    <Compile Include="Cache\Memcached\MemcacheItem.cs" />
+    <Compile Include="Cache\Memcached\NativeHandler.cs" />
+    <Compile Include="Cache\Memcached\NestedIOException.cs" />
+    <Compile Include="Cache\Memcached\NetworkStreamIgnoreSeek.cs" />
+    <Compile Include="Cache\Memcached\SockIO.cs" />
+    <Compile Include="Cache\Memcached\SockIOPool.cs" />
+    <Compile Include="Cache\Memcached\CMEMItem.cs" />
+    <Compile Include="Communication\CommuDefine.cs" />
+    <Compile Include="Communication\Http\CommuEngine.cs" />
+    <Compile Include="Communication\Http\DuplexSocketEvent.cs" />
+    <Compile Include="Communication\Http\DuplexSocketEventPool.cs" />
+    <Compile Include="Communication\Http\HttpHandle.cs" />
+    <Compile Include="Communication\Http\TCPListener.cs" />
+    <Compile Include="Communication\Tcp\CommuEngine.cs" />
+    <Compile Include="Communication\Tcp\DuplexSocketEvent.cs" />
+    <Compile Include="Communication\Tcp\DuplexSocketEventPool.cs" />
+    <Compile Include="Communication\Tcp\TCPListener.cs" />
+    <Compile Include="Compress\CompressHandle.cs" />
+    <Compile Include="Compress\Zlib\Adler32.cs" />
+    <Compile Include="Compress\Zlib\Deflate.cs" />
+    <Compile Include="Compress\Zlib\InfBlocks.cs" />
+    <Compile Include="Compress\Zlib\InfCodes.cs" />
+    <Compile Include="Compress\Zlib\Inflate.cs" />
+    <Compile Include="Compress\Zlib\InfTree.cs" />
+    <Compile Include="Compress\Zlib\StaticTree.cs" />
+    <Compile Include="Compress\Zlib\SupportClass.cs" />
+    <Compile Include="Compress\Zlib\Tree.cs" />
+    <Compile Include="Compress\Zlib\ZInputStream.cs" />
+    <Compile Include="Compress\Zlib\Zlib.cs" />
+    <Compile Include="Compress\Zlib\ZOutputStream.cs" />
+    <Compile Include="Compress\Zlib\ZStream.cs" />
+    <Compile Include="Compress\Zlib\ZStreamException.cs" />
+    <Compile Include="Debug\MiniDump.cs" />
+    <Compile Include="EncodeHandle.cs" />
+    <Compile Include="SerialHandle.cs" />
+    <Compile Include="DataStructure\AsyncBytesQueue.cs" />
+    <Compile Include="DataStructure\AsyncDictionary.cs" />
+    <Compile Include="DataStructure\AsyncEffectList.cs" />
+    <Compile Include="DataStructure\AsyncList.cs" />
+    <Compile Include="DataStructure\AsyncQueue.cs" />
+    <Compile Include="DataStructure\AsyncRWDictionary.cs" />
+    <Compile Include="DataStructure\MinHeap.cs" />
+    <Compile Include="DataStructure\RWLock.cs" />
+    <Compile Include="Log\LogEngine.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomHandle.cs" />
+    <Compile Include="ThreadHandle.cs" />
+    <Compile Include="ThreadPool.cs" />
+    <Compile Include="TimeHandle.cs" />
+    <Compile Include="SecurityHandle.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="StringMessages.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="Document\compiler.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Include\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="Include\log4net.dll" />
+    <Content Include="Include\log4net.xml" />
+    <Content Include="Include\mysql.data.dll" />
+    <Content Include="Include\MySql.Data.Entity.dll" />
+    <Content Include="Include\MySql.Data.Entity.EF6.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
