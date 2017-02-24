@@ -1,3 +1,9 @@
 ﻿!.gitignore
 *.bat
 *.pdb
+/obj
+/bin
+/Document
+/TestClient
+/Debug
+/.DS_Store
