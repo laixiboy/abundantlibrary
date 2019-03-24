@@ -8,11 +8,11 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("WLLibrary")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyCompany("Wolan")]
 [assembly: AssemblyProduct("WLLibrary")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2016")]
+[assembly: AssemblyCopyright("Copyright © Wolan 2016")]
 [assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
+[assembly: AssemblyCulture("Zh-cn")]
 
 // 将 ComVisible 设置为 false 使此程序集中的类型
 // 对 COM 组件不可见。如果需要从 COM 访问此程序集中的类型，
