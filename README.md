@@ -1,2 +1,2 @@
 # WLLibrary
-a private api library base on C# program language often used by myself in project of game for improving development efficiency
+This library based on C# was used by myself in projects of game for improving development efficiency
